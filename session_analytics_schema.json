@@ -1,0 +1,29 @@
+{
+  "version": "1.0.0",
+  "session_analytics": {
+    "session_id": "uuid",
+    "timestamp_utc": "ISO-8601",
+    "questions_asked": [
+      "Q_HOSPITAL_LEVEL",
+      "Q_PRICE_POSTURE"
+    ],
+    "answers_summary": {
+      "Q_HOSPITAL_LEVEL": "Private",
+      "Q_PRICE_POSTURE": "Balanced"
+    },
+    "answered_count": 0,
+    "dropoff_question_id": null,
+    "final_plans_presented": [
+      "PLAN_ID_1",
+      "PLAN_ID_2",
+      "PLAN_ID_3"
+    ],
+    "plan_clicked": null,
+    "user_satisfied": null,
+    "time_to_recommendation_seconds": 0
+  },
+  "privacy_notes": [
+    "Do not store names, emails, phone numbers, addresses, age, or premium quotes.",
+    "Store only session-level interaction metrics needed to tune question ordering."
+  ]
+}

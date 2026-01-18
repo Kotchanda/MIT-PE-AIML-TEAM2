@@ -1,0 +1,67 @@
+{
+  "version": "1.0.0",
+  "fields": {
+    "hospital_cover": {
+      "type": "enum",
+      "allowed": [
+        "PUBLIC",
+        "PRIVATE",
+        "HI_TECH"
+      ],
+      "description": "Highest hospital access level stated on public sources."
+    },
+    "plan_tier": {
+      "type": "enum",
+      "allowed": [
+        "BASIC",
+        "MID",
+        "HIGH"
+      ],
+      "description": "Internal tier classification (not necessarily provider wording)."
+    },
+    "semi_private_room": {
+      "type": "boolean",
+      "description": "Semi-private room benefit stated (may be conditional)."
+    },
+    "private_room": {
+      "type": "boolean",
+      "description": "Private room benefit stated (may be conditional)."
+    },
+    "outpatient_cover": {
+      "type": "boolean",
+      "description": "Outpatient benefits present (limits not captured here)."
+    },
+    "gp_visits": {
+      "type": "boolean",
+      "description": "GP visit refund/benefit present (limits not captured)."
+    },
+    "maternity_cover": {
+      "type": "boolean",
+      "description": "Maternity benefit present."
+    },
+    "maternity_waiting_months": {
+      "type": "integer",
+      "description": "Waiting period in months as stated/standard."
+    },
+    "mental_health": {
+      "type": "boolean",
+      "description": "Mental health benefits present."
+    },
+    "overseas_emergency": {
+      "type": "boolean",
+      "description": "Overseas emergency cover present."
+    },
+    "excess_required": {
+      "type": "boolean",
+      "description": "Plan includes excess/co-payment logic."
+    },
+    "excess_amount_text": {
+      "type": "text",
+      "description": "Text field describing excess logic (no pricing engine data)."
+    }
+  },
+  "notes": [
+    "Populate source_url with the direct public plan page or PDF.",
+    "Do not scrape premiums from quote engines; allow user to enter budget as preference if desired."
+  ]
+}
