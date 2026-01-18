@@ -1,0 +1,42 @@
+{
+  "version": "1.0.0",
+  "sessions": [
+    {
+      "session_id": "696d4ffbe8173734a9afc515",
+      "timestamp_utc": "2026-01-18T21:36:00Z",
+      "questions_asked": [
+        "Q_HOSPITAL_LEVEL",
+        "Q_PRICE_POSTURE",
+        "Q_MATERNITY",
+        "Q_MENTAL_HEALTH",
+        "Q_OVERSEAS_EMERGENCY",
+        "Q_EXCESS_PREFERENCE",
+        "Q_CARDIAC_CARE",
+        "Q_CANCER_CARE"
+      ],
+      "answers_summary": {
+        "Q_HOSPITAL_LEVEL": "HI_TECH",
+        "Q_PRICE_POSTURE": "Benefit-maximizing",
+        "Q_MATERNITY": "No",
+        "Q_MENTAL_HEALTH": "Yes",
+        "Q_OVERSEAS_EMERGENCY": "Yes",
+        "Q_EXCESS_PREFERENCE": "Very important - No excess",
+        "Q_CARDIAC_CARE": "Yes",
+        "Q_CANCER_CARE": "Yes"
+      },
+      "answered_count": 8,
+      "dropoff_question_id": null,
+      "final_plans_presented": [
+        "ILH_PLACEHOLDER_HIGH_01",
+        "VHI_PLACEHOLDER_HIGH_01"
+      ],
+      "plan_clicked": null,
+      "user_satisfied": true,
+      "time_to_recommendation_seconds": 180
+    }
+  ],
+  "privacy_notes": [
+    "Do not store names, emails, phone numbers, addresses, age, or premium quotes.",
+    "Store only session-level interaction metrics needed to tune question ordering."
+  ]
+}
