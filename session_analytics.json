@@ -2,36 +2,35 @@
   "version": "1.0.0",
   "sessions": [
     {
-      "session_id": "696e997949d529c73e8957a5",
-      "timestamp_utc": "2026-01-19T21:00:00Z",
+      "session_id": "696e9e63bd7c8589e64977a1",
+      "timestamp_utc": "2026-01-19T21:21:00Z",
       "questions_asked": [
         "Q_HOSPITAL_LEVEL",
         "Q_PRICE_POSTURE",
         "Q_MATERNITY",
         "Q_MENTAL_HEALTH",
         "Q_OVERSEAS_EMERGENCY",
-        "Q_ROOM_PREFERENCE",
         "Q_CARDIAC",
-        "Q_CANCER"
+        "Q_CANCER",
+        "Q_EXCESS_PREFERENCE"
       ],
       "answers_summary": {
-        "Q_HOSPITAL_LEVEL": "Private",
-        "Q_PRICE_POSTURE": "Balanced",
+        "Q_HOSPITAL_LEVEL": "HI_TECH",
+        "Q_PRICE_POSTURE": "Price-sensitive",
         "Q_MATERNITY": "Yes",
         "Q_MENTAL_HEALTH": "Yes",
         "Q_OVERSEAS_EMERGENCY": "Yes",
-        "Q_ROOM_PREFERENCE": "Private",
         "Q_CARDIAC": "Yes",
-        "Q_CANCER": "Yes"
+        "Q_CANCER": "Yes",
+        "Q_EXCESS_PREFERENCE": "No excess preferred"
       },
       "answered_count": 8,
       "dropoff_question_id": null,
       "final_plans_presented": [
         "ILH_PLACEHOLDER_HIGH_01",
-        "VHI_PLACEHOLDER_HIGH_01",
-        "LAYA_PLACEHOLDER_MID_01"
+        "VHI_PLACEHOLDER_HIGH_01"
       ],
-      "plan_clicked": null,
+      "plan_clicked": "ILH_PLACEHOLDER_HIGH_01",
       "user_satisfied": true,
       "time_to_recommendation_seconds": 180
     }
